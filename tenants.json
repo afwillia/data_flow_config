@@ -8,7 +8,7 @@
       {
         "name":"HTAN - All Projects",
         "synapse_asset_view":"syn20446927",
-        "config_location":"HTAN/dca_config.json"
+        "config_location":"HTAN/dfa_config.json"
       }
     ]
   }
