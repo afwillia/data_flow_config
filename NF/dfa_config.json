@@ -1,0 +1,15 @@
+{
+    "dcc": {
+      "name": "NF",
+      "synapse_asset_view": "syn16858331",
+      "manifest_dataset_id": "syn53284228",
+      "data_model_url": "",
+      "logo_location": "",
+      "logo_link": "",
+      "dcc_help_link": "",
+      "portal_help_link": ""
+    },
+    "dfa_dashboard": {
+      "icon": true
+    }
+  }
