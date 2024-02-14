@@ -1,0 +1,15 @@
+{
+    "dcc": {
+      "name": "FAIR Demo",
+      "synapse_asset_view": "syn50896957",
+      "manifest_dataset_id": "syn53162973",
+      "data_model_url": "https://raw.githubusercontent.com/Sage-Bionetworks/data_flow_config/23151479c608274b6057f9d4f82b9e8294237fdc/Demo/dataflow_component.jsonld",
+      "logo_location": "",
+      "logo_link": "",
+      "dcc_help_link": "",
+      "portal_help_link": ""
+    },
+    "dfa_dashboard": {
+      "icon": true
+    }
+  }
