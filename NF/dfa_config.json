@@ -3,13 +3,29 @@
       "name": "NF",
       "synapse_asset_view": "syn16858331",
       "manifest_dataset_id": "syn53284228",
-      "data_model_url": "https://raw.githubusercontent.com/Sage-Bionetworks/data_flow_config/483e93c6389869319972685f42f45f1c896c0a24/Demo/dataflow_component.jsonld",
+      "data_model_url": "https://raw.githubusercontent.com/Sage-Bionetworks/data_flow_config/dev/NF/dataflow_component.jsonld",
       "logo_location": "",
       "logo_link": "",
       "dcc_help_link": "",
       "portal_help_link": ""
     },
     "dfa_dashboard": {
-      "icon": true
+      "icon": true,
+      "display_names": {
+        "contributor": "studyName",
+        "dataset_id": "Manifest Synapse ID",
+        "dataset_name": "Folder Name",
+        "dataset_type": "Data Type",
+        "upload_date": "Date Uploaded",
+        "num_items": "Number of Items",
+        "dataset_size": "Dataset Size",
+        "scheduled_release_date": "Scheduled Release Date",
+        "status": "Status",
+        "released_destinations": "Released Destination",
+        "metadata_check": "Metadata Check",
+        "governance_compliance": "Governance Compliance Check",
+        "release_date": "Release Date",
+        "released": "Released"
+      }
     }
   }
