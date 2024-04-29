@@ -15,4 +15,4 @@ released,"Whether or not a dataset has been released
 ","TRUE, FALSE",,,TRUE,DataProperty,,,str
 metadata_check,Whether or not a dataset has passed DCA/Schematic metadata checks,"TRUE, FALSE",,,TRUE,DataProperty,,,str
 governance_compliance,Whether or not all files in a manifest have passed governance requirements,"TRUE, FALSE",,,TRUE,DataProperty,,,str
-version_number,Version number of dataset,,,,TRUE,DataProperty,,,int
+modified_on,Timestamp of last modification,,,,TRUE,DataProperty,,,str

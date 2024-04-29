@@ -424,21 +424,19 @@
         {
             "@id": "bts:VersionNumber",
             "@type": "rdfs:Class",
-            "rdfs:comment": "Version number of dataset",
+            "rdfs:comment": "TBD",
             "rdfs:label": "VersionNumber",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:DataProperty"
+                    "@id": "bts:Thing"
                 }
             ],
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
             "sms:displayName": "version_number",
-            "sms:required": "sms:true",
-            "sms:validationRules": [
-                "int"
-            ]
+            "sms:required": "sms:false",
+            "sms:validationRules": []
         },
         {
             "@id": "bts:DataType",
@@ -689,6 +687,25 @@
             "sms:displayName": "FALSE",
             "sms:required": "sms:false",
             "sms:validationRules": []
+        },
+        {
+            "@id": "bts:ModifiedOn",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Timestamp of last modification",
+            "rdfs:label": "ModifiedOn",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "modified_on",
+            "sms:required": "sms:true",
+            "sms:validationRules": [
+                "str"
+            ]
         }
     ],
     "@id": "http://schema.biothings.io/#0.1"
