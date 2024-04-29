@@ -69,7 +69,7 @@
                     "@id": "bts:GovernanceCompliance"
                 },
                 {
-                    "@id": "bts:VersionNumber"
+                    "@id": "bts:ModifiedOn"
                 }
             ],
             "sms:validationRules": []
@@ -422,21 +422,23 @@
             ]
         },
         {
-            "@id": "bts:VersionNumber",
+            "@id": "bts:ModifiedOn",
             "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "VersionNumber",
+            "rdfs:comment": "Timestamp of last modification",
+            "rdfs:label": "ModifiedOn",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:Thing"
+                    "@id": "bts:DataProperty"
                 }
             ],
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "version_number",
-            "sms:required": "sms:false",
-            "sms:validationRules": []
+            "sms:displayName": "modified_on",
+            "sms:required": "sms:true",
+            "sms:validationRules": [
+                "str"
+            ]
         },
         {
             "@id": "bts:DataType",
@@ -687,25 +689,6 @@
             "sms:displayName": "FALSE",
             "sms:required": "sms:false",
             "sms:validationRules": []
-        },
-        {
-            "@id": "bts:ModifiedOn",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Timestamp of last modification",
-            "rdfs:label": "ModifiedOn",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:DataProperty"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "modified_on",
-            "sms:required": "sms:true",
-            "sms:validationRules": [
-                "str"
-            ]
         }
     ],
     "@id": "http://schema.biothings.io/#0.1"
