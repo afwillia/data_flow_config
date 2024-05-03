@@ -1,9 +1,9 @@
 {
     "dcc": {
-      "name": "FAIR Demo",
-      "synapse_asset_view": "syn50896957",
-      "manifest_dataset_id": "syn53162973",
-      "data_model_url": "https://raw.githubusercontent.com/Sage-Bionetworks/data_flow_config/dev/Demo/dataflow_component.jsonld",
+      "name": "TEST source attribute",
+      "synapse_asset_view": "syn55226012",
+      "manifest_dataset_id": "syn55226003",
+      "data_model_url": "https://raw.githubusercontent.com/Sage-Bionetworks/data_flow_config/fds-1583-contributor-to-source/tst_source/dataflow_component.jsonld",
       "logo_location": "",
       "logo_link": "",
       "dcc_help_link": "",
@@ -12,7 +12,8 @@
     "dfa_dashboard": {
       "icon": true,
       "display_names": {
-        "source": "Contributor",
+        "source": "Source",
+        "study_status": "STUDY STATUS",
         "dataset_id": "Manifest Synapse ID",
         "dataset_name": "Folder Name",
         "dataset_type": "Data Type",

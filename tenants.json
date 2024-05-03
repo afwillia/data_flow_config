@@ -1,14 +1,14 @@
 {
     "tenants": [
       {
-        "name":"FAIR Demo",
-        "synapse_asset_view":"syn50896957",
-        "config_location":"Demo/dfa_config.json"
+        "name":"TEST - source attribute",
+        "synapse_asset_view":"syn55226012",
+        "config_location":"tst_source/dfa_config.json"
       },
       {
-        "name":"HTAN - All Projects",
+        "name":"Demo",
         "synapse_asset_view":"syn20446927",
-        "config_location":"HTAN/dfa_config.json"
+        "config_location":"Demo/dfa_config.json"
       },
       {
         "name":"NF",
