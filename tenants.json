@@ -16,11 +16,6 @@
         "config_location":"tst_permissions/dfa_config.json"
       },
       {
-        "name":"TEST - source attribute",
-        "synapse_asset_view":"syn55226012",
-        "config_location":"tst_source/dfa_config.json"
-      },
-      {
         "name":"TEST - study status",
         "synapse_asset_view":"syn54126648",
         "config_location":"tst_study_status/dfa_config.json"
