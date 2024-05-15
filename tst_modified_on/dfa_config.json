@@ -27,7 +27,7 @@
         "governance_compliance": "Governance Compliance Check",
         "release_date": "Release Date",
         "released": "Released",
-	"modifiedOn": "Modified On"
+	"modified_on": "Modified On"
       }
     }
   }
