@@ -1,7 +1,7 @@
 {
     "dcc": {
       "name": "TEST source attribute",
-      "synapse_asset_view": "syn50896957",
+      "synapse_asset_view": "syn33715412",
       "manifest_dataset_id": "syn51358914",
       "data_model_url": "https://raw.githubusercontent.com/afwillia/data_flow_config/add-modified-on/tst_modified_on/dataflow_component.jsonld",
       "logo_location": "",
