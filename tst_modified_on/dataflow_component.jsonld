@@ -70,6 +70,9 @@
                 },
                 {
                     "@id": "bts:StudyStatus"
+                },
+                {
+                    "@id": "bts:ModifiedOn"
                 }
             ],
             "sms:validationRules": []
@@ -441,6 +444,25 @@
             ]
         },
         {
+            "@id": "bts:ModifiedOn",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Timestamp of last modification",
+            "rdfs:label": "ModifiedOn",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "modified_on",
+            "sms:required": "sms:true",
+            "sms:validationRules": [
+                "str"
+            ]
+        },
+        {
             "@id": "bts:DataType",
             "@type": "rdfs:Class",
             "rdfs:comment": "TBD",
@@ -689,25 +711,6 @@
             "sms:displayName": "FALSE",
             "sms:required": "sms:false",
             "sms:validationRules": []
-        },
-        {
-            "@id": "bts:ModifiedOn",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "Timestamp of last modification",
-            "rdfs:label": "ModifiedOn",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:DataProperty"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "modified_on",
-            "sms:required": "sms:true",
-            "sms:validationRules": [
-                "str"
-            ]
         }
     ],
     "@id": "http://schema.biothings.io/#0.1"
